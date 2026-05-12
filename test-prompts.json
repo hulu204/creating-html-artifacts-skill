@@ -1,0 +1,17 @@
+[
+  {
+    "id": "long-design-plan",
+    "prompt": "Design a technical plan for migrating a monolithic search ranking service into a staged retrieval pipeline. Include options, trade-offs, risks, and validation steps.",
+    "expected": "Creates a self-contained HTML implementation plan instead of a long inline answer; includes top-right Export PDF button, print CSS, table of contents/目录, 原始方案全文 / Original Markdown Plan section, 建议批准语 / Suggested Approval Phrase section, copy buttons for 复制批准语 and 复制 markdown 原文, validation evidence, and best-effort auto-open."
+  },
+  {
+    "id": "architecture-comparison",
+    "prompt": "Compare three architecture options for an internal configuration center and recommend one. The response should be detailed enough for a design review.",
+    "expected": "Uses an HTML artifact with side-by-side option cards, decision criteria, explicit recommendation, risks, evidence/assumptions, table-of-contents navigation, 原始方案全文 and 建议批准语 handoff sections, copy buttons, Export PDF, and auto-open attempt."
+  },
+  {
+    "id": "short-answer-control",
+    "prompt": "In two sentences, explain when to use HTML instead of markdown.",
+    "expected": "Does not over-trigger; returns a short inline answer because the user requested a short text response."
+  }
+]
